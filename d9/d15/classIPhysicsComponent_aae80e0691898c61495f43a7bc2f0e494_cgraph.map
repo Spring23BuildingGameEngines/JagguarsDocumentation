@@ -1,0 +1,10 @@
+<map id="IPhysicsComponent::IsColliding" name="IPhysicsComponent::IsColliding">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,63,164,103"/>
+<area shape="rect" id="Node000002" href="$d9/d15/classIPhysicsComponent.html#abb67c9f5741590c7ebcca1434175386a" title=" " alt="" coords="212,5,371,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,60,205,47,206,52,158,65"/>
+<area shape="rect" id="Node000003" href="$d2/d0a/classTransformComponent.html#a5452c308a26521441745d3edc1ab5d4d" title=" " alt="" coords="419,92,581,132"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,86,405,103,405,108,164,91"/>
+<area shape="rect" id="Node000004" href="$d9/d15/classIPhysicsComponent.html#abfaa678eb1c7312e9bf098bc1473f794" title=" " alt="" coords="212,120,371,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,100,206,114,205,119,157,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="371,127,405,122,405,127,371,132"/>
+</map>

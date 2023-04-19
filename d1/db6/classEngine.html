@@ -78,6 +78,22 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d3/d48/Engine_8hpp_source.html">Engine.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Engine:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../dc/dfd/classEngine__coll__graph.png" border="0" usemap="#aEngine_coll__map" alt="Collaboration graph"/></div>
+<map name="aEngine_coll__map" id="aEngine_coll__map">
+<area shape="rect" title=" " alt="" coords="261,168,327,193"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html" title=" " alt="" coords="5,80,212,105"/>
+<area shape="poly" title=" " alt="" coords="145,109,212,142,267,165,265,170,210,146,142,114"/>
+<area shape="rect" href="../../d7/dea/classIGraphicsEngineRenderer.html" title=" " alt="" coords="15,5,202,31"/>
+<area shape="poly" title=" " alt="" coords="111,45,111,80,106,80,106,45"/>
+<area shape="rect" href="../../db/df5/classPhysicsEngine.html" title=" " alt="" coords="237,80,351,105"/>
+<area shape="poly" title=" " alt="" coords="297,119,297,167,291,167,291,119"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html" title=" " alt="" coords="375,80,501,105"/>
+<area shape="poly" title=" " alt="" coords="414,116,367,146,321,170,318,166,365,142,411,111"/>
+</map>
+<center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -101,8 +117,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7f07811f5bfae8943d5530057b1dc822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e3d93df96db6361330d3a41f7b5892b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classEngine.html#a2e3d93df96db6361330d3a41f7b5892b">InitializePhysicsSubsystem</a> ()</td></tr>
 <tr class="separator:a2e3d93df96db6361330d3a41f7b5892b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab03f0933af2767764d2e05f56fa44fd7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classEngine.html#ab03f0933af2767764d2e05f56fa44fd7">InitializeGUI</a> ()</td></tr>
+<tr class="memitem:ab03f0933af2767764d2e05f56fa44fd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classEngine.html#ab03f0933af2767764d2e05f56fa44fd7">InitializeGUI</a> ()</td></tr>
 <tr class="separator:ab03f0933af2767764d2e05f56fa44fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1b174ad072878adc6dff75d40b8dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db6/classEngine.html#a0a1b174ad072878adc6dff75d40b8dd9">createFly</a> (<a class="el" href="../../dd/d40/structVec2D.html">Vec2D</a> spawnPos)</td></tr>
+<tr class="separator:a0a1b174ad072878adc6dff75d40b8dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -157,6 +175,62 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0a1b174ad072878adc6dff75d40b8dd9" name="a0a1b174ad072878adc6dff75d40b8dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1b174ad072878adc6dff75d40b8dd9">&#9670;&#160;</a></span>createFly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> * Engine::createFly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d40/structVec2D.html">Vec2D</a>&#160;</td>
+          <td class="paramname"><em>spawnPos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a new bespoke Fly <a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> at the given location. Used to create the demo scene.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">spawnPos</td><td>the position to place the new <a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a Fly <a class="el" href="../../de/d1c/classGameObject.html">GameObject</a> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_cgraph.png" border="0" usemap="#ad1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_cgraph" id="ad1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,140,56"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#a0d33d826d709a1e4496e568193fb9c57" title=" " alt="" coords="190,5,401,31"/>
+<area shape="poly" title=" " alt="" coords="140,33,176,29,177,34,140,38"/>
+<area shape="rect" href="../../d6/d77/classSpriteComponent.html#a70bc3139c9721612b1cdb3e514d4dd46" title=" " alt="" coords="188,55,403,80"/>
+<area shape="poly" title=" " alt="" coords="140,48,175,52,174,57,140,53"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a98b11a6302bf0db4ffc81eea70512ee2" title=" " alt="" coords="457,28,683,53"/>
+<area shape="poly" title=" " alt="" coords="403,54,443,50,444,56,403,60"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a5b5534fbba6f619d50c8b4896ec7c768" title=" " alt="" coords="451,79,689,104"/>
+<area shape="poly" title=" " alt="" coords="403,74,437,77,437,82,403,79"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb" title=" " alt="" coords="749,18,956,58"/>
+<area shape="poly" title=" " alt="" coords="683,37,735,36,736,42,683,42"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a71c603bdc173cfe704788a0fbfe2ac7e" title=" " alt="" coords="737,83,968,108"/>
+<area shape="poly" title=" " alt="" coords="690,90,723,91,723,96,690,96"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_icgraph.png" border="0" usemap="#ad1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_icgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_icgraph" id="ad1/db6/classEngine_a0a1b174ad072878adc6dff75d40b8dd9_icgraph">
+<area shape="rect" title=" " alt="" coords="159,5,293,31"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a1fbe9f5cb4abc3572e432cae1f154817" title=" " alt="" coords="5,5,111,31"/>
+<area shape="poly" title=" " alt="" coords="145,21,111,21,111,15,145,15"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a7f07811f5bfae8943d5530057b1dc822" name="a7f07811f5bfae8943d5530057b1dc822"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f07811f5bfae8943d5530057b1dc822">&#9670;&#160;</a></span>InitializeGraphicsSubSystem()</h2>
 
@@ -171,7 +245,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Request to startup the Graphics Subsystem </p>
+<p>Request to startup the Graphics Subsystem. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d7/dea/classIGraphicsEngineRenderer.html">IGraphicsEngineRenderer</a> </dd></dl>
 
 </div>
 </div>
@@ -189,7 +263,19 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Request to startup the GUI Subsystem </p>
+<p>Request to startup the GUI Subsystem. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d5/d3b/classGameMakerGUI.html">GameMakerGUI</a> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_ab03f0933af2767764d2e05f56fa44fd7_cgraph.png" border="0" usemap="#ad1/db6/classEngine_ab03f0933af2767764d2e05f56fa44fd7_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_ab03f0933af2767764d2e05f56fa44fd7_cgraph" id="ad1/db6/classEngine_ab03f0933af2767764d2e05f56fa44fd7_cgraph">
+<area shape="rect" title=" " alt="" coords="5,45,160,70"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#a93e5f435d003933cf3304e44c5aa7324" title=" " alt="" coords="208,5,415,45"/>
+<area shape="poly" title=" " alt="" coords="160,44,194,39,195,44,161,49"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#abd24deb029577fc237b47a3cbf30c121" title=" " alt="" coords="208,69,415,109"/>
+<area shape="poly" title=" " alt="" coords="161,66,195,70,194,76,160,71"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -207,7 +293,27 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Request to startup the Physics Subsystem </p>
+<p>Request to startup the Physics Subsystem. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../db/df5/classPhysicsEngine.html">PhysicsEngine</a> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_cgraph.png" border="0" usemap="#ad1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_cgraph" id="ad1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,184,45"/>
+<area shape="rect" href="../../db/df5/classPhysicsEngine.html#aaa69a81964d980456a6ac48816d2f756" title=" " alt="" coords="232,13,455,38"/>
+<area shape="poly" title=" " alt="" coords="184,23,218,23,218,28,184,28"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_icgraph.png" border="0" usemap="#ad1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_icgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_icgraph" id="ad1/db6/classEngine_a2e3d93df96db6361330d3a41f7b5892b_icgraph">
+<area shape="rect" title=" " alt="" coords="229,5,408,45"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,13,181,38"/>
+<area shape="poly" title=" " alt="" coords="216,28,182,28,182,23,216,23"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -242,6 +348,26 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_cgraph.png" border="0" usemap="#ad1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_cgraph" id="ad1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,112,31"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#ae5d7cd973b4ae98b6bb53a780eb5065a" title=" " alt="" coords="160,5,327,31"/>
+<area shape="poly" title=" " alt="" coords="112,15,147,15,147,21,112,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_icgraph.png" border="0" usemap="#ad1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_icgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_icgraph" id="ad1/db6/classEngine_a8420fafe78a3742a451fac2fcedef50c_icgraph">
+<area shape="rect" title=" " alt="" coords="229,5,336,31"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,5,181,31"/>
+<area shape="poly" title=" " alt="" coords="215,21,181,21,181,15,215,15"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -260,6 +386,92 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Main Game Loop that runs forever </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a9ec9d3d7dc0f9e79032dd83801778eaf_cgraph.png" border="0" usemap="#ad1/db6/classEngine_a9ec9d3d7dc0f9e79032dd83801778eaf_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a9ec9d3d7dc0f9e79032dd83801778eaf_cgraph" id="ad1/db6/classEngine_a9ec9d3d7dc0f9e79032dd83801778eaf_cgraph">
+<area shape="rect" title=" " alt="" coords="5,292,181,317"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a2e3d93df96db6361330d3a41f7b5892b" title=" " alt="" coords="229,166,408,206"/>
+<area shape="poly" title=" " alt="" coords="116,290,228,228,263,210,265,214,231,232,118,294"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a8420fafe78a3742a451fac2fcedef50c" title=" " alt="" coords="265,243,372,268"/>
+<area shape="poly" title=" " alt="" coords="151,289,251,267,253,272,153,295"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#acde70aed0043e2e2091d0bb6cce8e3c1" title=" " alt="" coords="259,316,379,341"/>
+<area shape="poly" title=" " alt="" coords="182,311,245,318,244,323,181,317"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#ac84eefe06226f430a2448306e6fd2579" title=" " alt="" coords="258,451,379,476"/>
+<area shape="poly" title=" " alt="" coords="114,315,290,441,287,445,111,320"/>
+<area shape="rect" href="../../db/df5/classPhysicsEngine.html#aaa69a81964d980456a6ac48816d2f756" title=" " alt="" coords="456,160,679,185"/>
+<area shape="poly" title=" " alt="" coords="408,179,442,177,442,182,408,184"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#ae5d7cd973b4ae98b6bb53a780eb5065a" title=" " alt="" coords="484,209,651,235"/>
+<area shape="poly" title=" " alt="" coords="372,246,470,232,471,238,373,251"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#ae6edfc67a39076c0c12101ad85be4f6a" title=" " alt="" coords="464,437,671,477"/>
+<area shape="poly" title=" " alt="" coords="336,339,388,380,457,422,474,430,472,434,455,427,385,384,333,343"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a2cc6da97c0f4b45175ddc9683308866e" title=" " alt="" coords="459,259,676,284"/>
+<area shape="poly" title=" " alt="" coords="373,313,455,294,497,285,498,290,457,299,374,319"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#acddd7c456e4311d71fc1d43f29343d81" title=" " alt="" coords="464,309,671,349"/>
+<area shape="poly" title=" " alt="" coords="379,326,450,326,450,331,379,331"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#a91b29bf19986c6ad8710238778312277" title=" " alt="" coords="464,373,671,413"/>
+<area shape="poly" title=" " alt="" coords="370,339,476,367,475,372,369,344"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a39546dd352c9c5d198f61e34011131b4" title=" " alt="" coords="733,73,983,99"/>
+<area shape="poly" title=" " alt="" coords="658,256,677,244,690,228,697,212,700,178,703,143,710,126,725,109,732,104,736,108,728,113,715,129,708,145,705,179,702,214,695,231,680,248,661,261"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a93fadf8f7775147db45bf8c0f41c8f60" title=" " alt="" coords="736,123,980,163"/>
+<area shape="poly" title=" " alt="" coords="653,256,677,244,693,227,700,210,708,191,725,173,734,168,737,172,728,177,713,194,705,212,697,230,680,248,655,261"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a234477cd3aefa75d38b00aa81c848525" title=" " alt="" coords="739,316,977,341"/>
+<area shape="poly" title=" " alt="" coords="631,281,727,301,778,311,777,316,726,306,630,287"/>
+<area shape="rect" href="../../d8/d6b/classComponent.html#a92af5bb942ea9633515a0c0e16a0bb8c" title=" " alt="" coords="751,251,965,291"/>
+<area shape="poly" title=" " alt="" coords="676,269,737,269,737,274,676,274"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a7161039330e8a8cc81dbd9a813d34038" title=" " alt="" coords="727,365,989,391"/>
+<area shape="poly" title=" " alt="" coords="652,282,680,294,696,309,705,323,713,338,728,350,743,358,741,363,725,355,709,341,700,326,692,312,677,299,650,287"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#ac6b9e94c057349726c94cbaea077ac07" title=" " alt="" coords="733,187,983,227"/>
+<area shape="poly" title=" " alt="" coords="625,256,753,228,754,233,626,261"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#a0d33d826d709a1e4496e568193fb9c57" title=" " alt="" coords="1349,135,1559,160"/>
+<area shape="poly" title=" " alt="" coords="984,92,1129,103,1287,119,1364,130,1363,135,1286,125,1129,109,983,97"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a8bb86d3ac72c1ba9607b8c638e5e91dc" title=" " alt="" coords="1049,135,1275,160"/>
+<area shape="poly" title=" " alt="" coords="926,96,990,109,1089,129,1088,134,989,114,925,101"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#a74ce03d596c95cf6ebb8105c02260e7f" title=" " alt="" coords="1075,195,1249,220"/>
+<area shape="poly" title=" " alt="" coords="963,96,991,109,1007,124,1016,140,1024,155,1039,169,1078,188,1076,193,1036,174,1020,158,1011,142,1003,127,988,114,961,101"/>
+<area shape="rect" href="../../d6/d77/classSpriteComponent.html#a70bc3139c9721612b1cdb3e514d4dd46" title=" " alt="" coords="1055,33,1269,59"/>
+<area shape="poly" title=" " alt="" coords="955,71,1051,58,1052,63,955,76"/>
+<area shape="poly" title=" " alt="" coords="1275,145,1335,145,1335,150,1275,150"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#ab396480ccd35a5b6ce2f94c03738c54e" title=" " alt="" coords="1346,220,1562,245"/>
+<area shape="poly" title=" " alt="" coords="1210,158,1287,179,1400,213,1398,219,1286,185,1209,163"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a98b11a6302bf0db4ffc81eea70512ee2" title=" " alt="" coords="1341,59,1567,84"/>
+<area shape="poly" title=" " alt="" coords="1270,53,1328,58,1328,63,1269,58"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a5b5534fbba6f619d50c8b4896ec7c768" title=" " alt="" coords="1335,8,1573,33"/>
+<area shape="poly" title=" " alt="" coords="1269,34,1320,30,1321,35,1270,39"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb" title=" " alt="" coords="1633,55,1840,95"/>
+<area shape="poly" title=" " alt="" coords="1567,70,1620,71,1619,76,1567,76"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a71c603bdc173cfe704788a0fbfe2ac7e" title=" " alt="" coords="1621,5,1852,31"/>
+<area shape="poly" title=" " alt="" coords="1574,17,1607,17,1607,22,1574,22"/>
+<area shape="poly" title=" " alt="" coords="938,313,1360,245,1361,250,939,319"/>
+<area shape="poly" title=" " alt="" coords="959,313,988,301,1003,289,1011,275,1020,261,1036,247,1061,232,1088,222,1090,227,1064,237,1039,251,1024,264,1016,278,1007,292,991,306,961,318"/>
+<area shape="rect" href="../../d8/d6b/classComponent.html#a6ad359e7f57daa4ba249aaf5c88da052" title=" " alt="" coords="1037,365,1287,391"/>
+<area shape="poly" title=" " alt="" coords="937,339,1070,360,1069,366,937,344"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#ae603a4ad1a0110ef90f51156cb1e7166" title=" " alt="" coords="1042,316,1282,341"/>
+<area shape="poly" title=" " alt="" coords="978,326,1028,326,1028,331,978,331"/>
+<area shape="poly" title=" " alt="" coords="990,375,1024,375,1024,381,990,381"/>
+<area shape="poly" title=" " alt="" coords="983,205,1062,205,1062,210,983,210"/>
+<area shape="rect" href="../../db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a" title=" " alt="" coords="482,537,653,563"/>
+<area shape="poly" title=" " alt="" coords="357,474,518,530,516,535,355,479"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#abb67c9f5741590c7ebcca1434175386a" title=" " alt="" coords="1083,443,1241,483"/>
+<area shape="poly" title=" " alt="" coords="592,535,677,486,700,467,710,459,726,451,770,440,815,432,907,427,994,432,1069,442,1069,447,993,437,907,433,816,438,771,445,728,457,713,463,703,471,680,491,595,539"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#a5a88a9979998bcfe46ec45d4a6c4966b" title=" " alt="" coords="779,466,937,506"/>
+<area shape="poly" title=" " alt="" coords="625,535,764,504,766,509,626,540"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#abfaa678eb1c7312e9bf098bc1473f794" title=" " alt="" coords="1083,587,1241,627"/>
+<area shape="poly" title=" " alt="" coords="622,560,727,579,909,596,1069,603,1069,608,908,601,726,585,621,565"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#aae80e0691898c61495f43a7bc2f0e494" title=" " alt="" coords="779,530,937,570"/>
+<area shape="poly" title=" " alt="" coords="653,547,765,547,765,553,653,553"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#a4136b164031d8fa821316e1664264392" title=" " alt="" coords="779,645,937,685"/>
+<area shape="poly" title=" " alt="" coords="593,560,654,591,728,624,770,638,768,643,726,628,651,596,591,565"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#aaf37980fe6dea6de4d49156b3c4ce998" title=" " alt="" coords="779,709,937,749"/>
+<area shape="poly" title=" " alt="" coords="581,561,638,625,681,663,728,694,767,710,765,715,725,699,677,667,635,629,577,565"/>
+<area shape="rect" href="../../d2/d0a/classTransformComponent.html#a5452c308a26521441745d3edc1ab5d4d" title=" " alt="" coords="1373,558,1535,598"/>
+<area shape="poly" title=" " alt="" coords="1241,597,1358,585,1359,590,1242,602"/>
+<area shape="poly" title=" " alt="" coords="937,529,989,515,1088,485,1089,490,990,521,938,534"/>
+<area shape="poly" title=" " alt="" coords="938,562,1069,587,1068,592,937,568"/>
+<area shape="poly" title=" " alt="" coords="938,551,1359,571,1359,576,937,556"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -278,6 +490,71 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Per frame render. Renders everything </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_cgraph.png" border="0" usemap="#ad1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_cgraph" id="ad1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,263,125,289"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#ae6edfc67a39076c0c12101ad85be4f6a" title=" " alt="" coords="179,169,385,209"/>
+<area shape="poly" title=" " alt="" coords="88,261,172,220,196,211,198,216,174,225,91,266"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a2cc6da97c0f4b45175ddc9683308866e" title=" " alt="" coords="173,234,391,259"/>
+<area shape="poly" title=" " alt="" coords="125,265,174,259,175,264,126,271"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#acddd7c456e4311d71fc1d43f29343d81" title=" " alt="" coords="179,284,385,324"/>
+<area shape="poly" title=" " alt="" coords="126,281,165,286,164,291,125,286"/>
+<area shape="rect" href="../../d1/d7f/classSDLGraphicsEngineRenderer.html#a91b29bf19986c6ad8710238778312277" title=" " alt="" coords="179,348,385,388"/>
+<area shape="poly" title=" " alt="" coords="88,287,127,310,174,334,194,341,192,346,172,338,125,315,85,291"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a39546dd352c9c5d198f61e34011131b4" title=" " alt="" coords="445,81,695,106"/>
+<area shape="poly" title=" " alt="" coords="368,232,389,219,400,208,407,195,412,169,417,142,425,129,437,117,446,110,449,114,440,121,429,132,422,144,417,170,412,197,404,211,392,223,371,236"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a93fadf8f7775147db45bf8c0f41c8f60" title=" " alt="" coords="448,131,692,171"/>
+<area shape="poly" title=" " alt="" coords="356,231,389,219,403,210,413,200,423,190,437,180,454,173,456,178,440,185,426,194,417,204,407,214,392,224,358,236"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a234477cd3aefa75d38b00aa81c848525" title=" " alt="" coords="451,323,689,349"/>
+<area shape="poly" title=" " alt="" coords="358,257,392,270,407,279,417,290,426,299,440,308,462,317,460,322,437,313,422,304,413,293,403,284,389,274,356,262"/>
+<area shape="rect" href="../../d8/d6b/classComponent.html#a92af5bb942ea9633515a0c0e16a0bb8c" title=" " alt="" coords="463,259,677,299"/>
+<area shape="poly" title=" " alt="" coords="391,256,449,263,449,268,391,261"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a7161039330e8a8cc81dbd9a813d34038" title=" " alt="" coords="439,373,701,398"/>
+<area shape="poly" title=" " alt="" coords="370,257,392,270,404,281,411,293,417,316,423,339,430,349,440,359,448,364,445,369,437,363,426,353,418,341,412,318,406,295,399,284,389,274,367,262"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#ac6b9e94c057349726c94cbaea077ac07" title=" " alt="" coords="445,195,695,235"/>
+<area shape="poly" title=" " alt="" coords="391,232,431,227,432,233,391,237"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#a0d33d826d709a1e4496e568193fb9c57" title=" " alt="" coords="1061,142,1271,167"/>
+<area shape="poly" title=" " alt="" coords="696,100,999,128,1070,137,1069,143,998,133,695,105"/>
+<area shape="rect" href="../../d5/d3b/classGameMakerGUI.html#a8bb86d3ac72c1ba9607b8c638e5e91dc" title=" " alt="" coords="761,142,987,167"/>
+<area shape="poly" title=" " alt="" coords="638,103,702,116,801,137,800,142,701,121,637,109"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#a74ce03d596c95cf6ebb8105c02260e7f" title=" " alt="" coords="787,202,961,227"/>
+<area shape="poly" title=" " alt="" coords="675,104,703,116,719,132,728,148,736,163,751,178,787,195,784,200,748,182,732,166,723,150,715,135,700,121,673,108"/>
+<area shape="rect" href="../../d6/d77/classSpriteComponent.html#a70bc3139c9721612b1cdb3e514d4dd46" title=" " alt="" coords="767,41,981,66"/>
+<area shape="poly" title=" " alt="" coords="667,78,763,65,764,70,667,83"/>
+<area shape="poly" title=" " alt="" coords="987,152,1047,152,1047,157,987,157"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#ab396480ccd35a5b6ce2f94c03738c54e" title=" " alt="" coords="1058,226,1274,251"/>
+<area shape="poly" title=" " alt="" coords="920,165,1108,220,1107,225,919,170"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a98b11a6302bf0db4ffc81eea70512ee2" title=" " alt="" coords="1053,15,1279,41"/>
+<area shape="poly" title=" " alt="" coords="981,41,1040,36,1040,42,982,47"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a5b5534fbba6f619d50c8b4896ec7c768" title=" " alt="" coords="1047,66,1285,91"/>
+<area shape="poly" title=" " alt="" coords="982,60,1033,64,1032,70,981,65"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb" title=" " alt="" coords="1345,5,1552,45"/>
+<area shape="poly" title=" " alt="" coords="1279,24,1331,24,1332,29,1279,30"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a71c603bdc173cfe704788a0fbfe2ac7e" title=" " alt="" coords="1333,70,1564,95"/>
+<area shape="poly" title=" " alt="" coords="1286,78,1319,78,1319,84,1286,83"/>
+<area shape="poly" title=" " alt="" coords="648,321,1073,251,1074,256,649,326"/>
+<area shape="poly" title=" " alt="" coords="671,321,700,308,715,296,723,283,732,268,748,254,773,240,800,229,802,234,776,245,751,258,736,272,728,285,719,300,703,313,673,326"/>
+<area shape="rect" href="../../d8/d6b/classComponent.html#a6ad359e7f57daa4ba249aaf5c88da052" title=" " alt="" coords="749,373,999,398"/>
+<area shape="poly" title=" " alt="" coords="649,346,782,368,781,373,649,351"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#ae603a4ad1a0110ef90f51156cb1e7166" title=" " alt="" coords="754,323,994,349"/>
+<area shape="poly" title=" " alt="" coords="690,333,740,333,740,339,690,339"/>
+<area shape="poly" title=" " alt="" coords="702,383,736,383,736,388,702,388"/>
+<area shape="poly" title=" " alt="" coords="695,212,774,212,774,217,695,217"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_icgraph.png" border="0" usemap="#ad1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_icgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_icgraph" id="ad1/db6/classEngine_acde70aed0043e2e2091d0bb6cce8e3c1_icgraph">
+<area shape="rect" title=" " alt="" coords="229,5,349,31"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,5,181,31"/>
+<area shape="poly" title=" " alt="" coords="215,21,181,21,181,15,215,15"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -314,6 +591,38 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Initialization and shutdown pattern. Explicitly call 'Start' to launch the engine </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_a1fbe9f5cb4abc3572e432cae1f154817_cgraph.png" border="0" usemap="#ad1/db6/classEngine_a1fbe9f5cb4abc3572e432cae1f154817_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_a1fbe9f5cb4abc3572e432cae1f154817_cgraph" id="ad1/db6/classEngine_a1fbe9f5cb4abc3572e432cae1f154817_cgraph">
+<area shape="rect" title=" " alt="" coords="5,93,111,118"/>
+<area shape="rect" href="../../de/d1c/classGameObject.html#a0d33d826d709a1e4496e568193fb9c57" title=" " alt="" coords="436,17,647,42"/>
+<area shape="poly" title=" " alt="" coords="69,91,105,57,130,40,158,27,236,9,317,3,393,5,460,13,459,18,393,11,317,8,237,14,160,32,133,45,109,61,72,95"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a0a1b174ad072878adc6dff75d40b8dd9" title=" " alt="" coords="200,42,335,68"/>
+<area shape="poly" title=" " alt="" coords="110,91,201,68,202,74,112,96"/>
+<area shape="rect" href="../../d6/d77/classSpriteComponent.html#a70bc3139c9721612b1cdb3e514d4dd46" title=" " alt="" coords="434,80,649,105"/>
+<area shape="poly" title=" " alt="" coords="111,102,420,93,420,98,111,107"/>
+<area shape="rect" href="../../d9/d56/classTileMapComponent.html#abda1e3f6a76380b3628e69f33ad730bc" title=" " alt="" coords="159,143,376,183"/>
+<area shape="poly" title=" " alt="" coords="106,116,182,137,180,142,104,121"/>
+<area shape="rect" href="../../d9/d56/classTileMapComponent.html#ad74bd890fb494d89958b4bc67686bdc6" title=" " alt="" coords="160,208,375,233"/>
+<area shape="poly" title=" " alt="" coords="72,117,108,155,133,176,160,193,179,201,177,206,157,197,130,180,105,159,68,121"/>
+<area shape="poly" title=" " alt="" coords="334,46,422,38,422,44,335,52"/>
+<area shape="poly" title=" " alt="" coords="335,62,434,75,433,81,334,67"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a98b11a6302bf0db4ffc81eea70512ee2" title=" " alt="" coords="713,54,939,80"/>
+<area shape="poly" title=" " alt="" coords="649,80,699,76,700,81,649,86"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a5b5534fbba6f619d50c8b4896ec7c768" title=" " alt="" coords="707,105,945,130"/>
+<area shape="poly" title=" " alt="" coords="649,99,693,103,693,109,649,105"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb" title=" " alt="" coords="1005,44,1212,84"/>
+<area shape="poly" title=" " alt="" coords="939,63,991,63,992,68,939,69"/>
+<area shape="rect" href="../../de/d6b/classResourceManager.html#a71c603bdc173cfe704788a0fbfe2ac7e" title=" " alt="" coords="993,109,1224,134"/>
+<area shape="poly" title=" " alt="" coords="946,117,979,117,979,123,946,122"/>
+<area shape="rect" href="../../d9/d56/classTileMapComponent.html#aa663981f62c649650617475c2d2e03e3" title=" " alt="" coords="440,150,643,176"/>
+<area shape="poly" title=" " alt="" coords="376,160,426,160,426,166,376,166"/>
+<area shape="rect" href="../../d9/d56/classTileMapComponent.html#adb24ff5494a792ccefb9b2cf95bc9f28" title=" " alt="" coords="424,208,659,233"/>
+<area shape="poly" title=" " alt="" coords="375,218,410,218,410,223,375,223"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -332,6 +641,43 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Per frame update </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_cgraph.png" border="0" usemap="#ad1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_cgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_cgraph" id="ad1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_cgraph">
+<area shape="rect" title=" " alt="" coords="5,138,127,163"/>
+<area shape="rect" href="../../db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a" title=" " alt="" coords="175,138,345,163"/>
+<area shape="poly" title=" " alt="" coords="127,148,161,148,161,153,127,153"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#abb67c9f5741590c7ebcca1434175386a" title=" " alt="" coords="600,12,759,52"/>
+<area shape="poly" title=" " alt="" coords="267,136,286,110,315,78,351,46,392,22,441,9,491,3,540,4,586,9,586,14,540,9,491,9,442,14,394,27,354,51,318,82,291,113,272,139"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#a5a88a9979998bcfe46ec45d4a6c4966b" title=" " alt="" coords="393,37,552,77"/>
+<area shape="poly" title=" " alt="" coords="287,135,392,86,408,80,410,85,394,91,289,140"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#abfaa678eb1c7312e9bf098bc1473f794" title=" " alt="" coords="600,158,759,198"/>
+<area shape="poly" title=" " alt="" coords="346,153,586,169,586,175,345,159"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#aae80e0691898c61495f43a7bc2f0e494" title=" " alt="" coords="393,101,552,141"/>
+<area shape="poly" title=" " alt="" coords="345,136,380,131,380,136,346,141"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#a4136b164031d8fa821316e1664264392" title=" " alt="" coords="393,216,552,256"/>
+<area shape="poly" title=" " alt="" coords="294,161,410,208,408,213,292,165"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#aaf37980fe6dea6de4d49156b3c4ce998" title=" " alt="" coords="393,280,552,320"/>
+<area shape="poly" title=" " alt="" coords="275,161,324,211,358,239,395,265,405,271,402,276,392,270,355,244,321,214,271,165"/>
+<area shape="rect" href="../../d2/d0a/classTransformComponent.html#a5452c308a26521441745d3edc1ab5d4d" title=" " alt="" coords="807,130,969,170"/>
+<area shape="poly" title=" " alt="" coords="759,165,793,160,793,166,759,170"/>
+<area shape="poly" title=" " alt="" coords="523,98,551,86,621,55,624,60,553,91,525,103"/>
+<area shape="poly" title=" " alt="" coords="546,138,594,152,593,157,545,144"/>
+<area shape="poly" title=" " alt="" coords="552,124,793,141,793,146,552,129"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_icgraph.png" border="0" usemap="#ad1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_icgraph" alt=""/></div>
+<map name="ad1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_icgraph" id="ad1/db6/classEngine_ac84eefe06226f430a2448306e6fd2579_icgraph">
+<area shape="rect" title=" " alt="" coords="229,5,351,31"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,5,181,31"/>
+<area shape="poly" title=" " alt="" coords="216,21,181,21,181,15,216,15"/>
+</map>
+</div>
 
 </div>
 </div>

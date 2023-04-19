@@ -1,0 +1,12 @@
+<map id="IPhysicsComponent::GetDimensions" name="IPhysicsComponent::GetDimensions">
+<area shape="rect" id="Node000001" title=" " alt="" coords="824,35,983,75"/>
+<area shape="rect" id="Node000002" href="$d9/d15/classIPhysicsComponent.html#aae80e0691898c61495f43a7bc2f0e494" title=" " alt="" coords="617,5,776,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="810,44,776,39,776,34,811,39"/>
+<area shape="rect" id="Node000003" href="$db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a" title=" " alt="" coords="399,42,569,67"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="810,60,776,60,617,60,569,59,570,54,617,55,776,55,810,54"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="604,41,570,46,569,40,604,35"/>
+<area shape="rect" id="Node000004" href="$d1/db6/classEngine.html#ac84eefe06226f430a2448306e6fd2579" title=" " alt="" coords="229,42,351,67"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,57,351,57,351,52,385,52"/>
+<area shape="rect" id="Node000005" href="$d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,42,181,67"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="216,57,181,57,181,52,216,52"/>
+</map>

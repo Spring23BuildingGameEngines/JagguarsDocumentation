@@ -1,0 +1,7 @@
+<map id="Engine::InitializeGUI" name="Engine::InitializeGUI">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,45,160,70"/>
+<area shape="rect" id="Node000002" href="$d1/d7f/classSDLGraphicsEngineRenderer.html#a93e5f435d003933cf3304e44c5aa7324" title=" " alt="" coords="208,5,415,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,44,194,39,195,44,161,49"/>
+<area shape="rect" id="Node000003" href="$d1/d7f/classSDLGraphicsEngineRenderer.html#abd24deb029577fc237b47a3cbf30c121" title=" " alt="" coords="208,69,415,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,66,195,70,194,76,160,71"/>
+</map>

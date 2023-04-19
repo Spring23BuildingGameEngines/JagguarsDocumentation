@@ -1,0 +1,15 @@
+<map id="Engine::createFly" name="Engine::createFly">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,140,56"/>
+<area shape="rect" id="Node000002" href="$de/d1c/classGameObject.html#a0d33d826d709a1e4496e568193fb9c57" title=" " alt="" coords="190,5,401,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,33,176,29,177,34,140,38"/>
+<area shape="rect" id="Node000003" href="$d6/d77/classSpriteComponent.html#a70bc3139c9721612b1cdb3e514d4dd46" title=" " alt="" coords="188,55,403,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="140,48,175,52,174,57,140,53"/>
+<area shape="rect" id="Node000004" href="$de/d6b/classResourceManager.html#a98b11a6302bf0db4ffc81eea70512ee2" title=" " alt="" coords="457,28,683,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="403,54,443,50,444,56,403,60"/>
+<area shape="rect" id="Node000006" href="$de/d6b/classResourceManager.html#a5b5534fbba6f619d50c8b4896ec7c768" title=" " alt="" coords="451,79,689,104"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="403,74,437,77,437,82,403,79"/>
+<area shape="rect" id="Node000005" href="$de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb" title=" " alt="" coords="749,18,956,58"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="683,37,735,36,736,42,683,42"/>
+<area shape="rect" id="Node000007" href="$de/d6b/classResourceManager.html#a71c603bdc173cfe704788a0fbfe2ac7e" title=" " alt="" coords="737,83,968,108"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="690,90,723,91,723,96,690,96"/>
+</map>

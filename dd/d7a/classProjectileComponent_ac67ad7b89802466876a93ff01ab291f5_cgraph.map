@@ -1,0 +1,10 @@
+<map id="ProjectileComponent::ProjectileComponent" name="ProjectileComponent::ProjectileComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,33,172,73"/>
+<area shape="rect" id="Node000002" href="$d2/d0a/classTransformComponent.html#a5452c308a26521441745d3edc1ab5d4d" title=" " alt="" coords="431,5,593,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,31,220,19,321,13,417,15,417,20,322,18,220,24,159,36"/>
+<area shape="rect" id="Node000003" href="$d9/d15/classIPhysicsComponent.html#abfaa678eb1c7312e9bf098bc1473f794" title=" " alt="" coords="222,33,381,73"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,51,209,51,209,56,172,56"/>
+<area shape="rect" id="Node000004" href="$de/d87/classRigidbodyComponent.html#a5c6caca7d911fb61f00a2a35de0f62ef" title=" " alt="" coords="220,97,383,137"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="157,71,222,91,220,96,155,76"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="380,40,417,35,417,41,381,45"/>
+</map>

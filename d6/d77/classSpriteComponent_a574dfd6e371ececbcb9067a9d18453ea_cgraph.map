@@ -1,0 +1,13 @@
+<map id="SpriteComponent::ShowComponentEditor" name="SpriteComponent::ShowComponentEditor">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,259,75"/>
+<area shape="rect" id="Node000002" href="$d6/d77/classSpriteComponent.html#a70bc3139c9721612b1cdb3e514d4dd46" title=" " alt="" coords="307,42,521,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,52,293,52,293,57,259,57"/>
+<area shape="rect" id="Node000003" href="$de/d6b/classResourceManager.html#a98b11a6302bf0db4ffc81eea70512ee2" title=" " alt="" coords="576,15,801,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="521,42,562,38,562,43,522,47"/>
+<area shape="rect" id="Node000005" href="$de/d6b/classResourceManager.html#a5b5534fbba6f619d50c8b4896ec7c768" title=" " alt="" coords="569,66,808,91"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="522,61,556,64,555,70,521,67"/>
+<area shape="rect" id="Node000004" href="$de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb" title=" " alt="" coords="868,5,1075,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="801,24,854,24,854,29,801,30"/>
+<area shape="rect" id="Node000006" href="$de/d6b/classResourceManager.html#a71c603bdc173cfe704788a0fbfe2ac7e" title=" " alt="" coords="856,70,1087,95"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="808,78,842,78,842,84,808,83"/>
+</map>

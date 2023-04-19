@@ -1,0 +1,14 @@
+<map id="Component::ComponentTypeName" name="Component::ComponentTypeName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="973,31,1223,56"/>
+<area shape="rect" id="Node000002" href="$d5/d3b/classGameMakerGUI.html#a234477cd3aefa75d38b00aa81c848525" title=" " alt="" coords="675,5,913,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="960,34,913,31,914,25,960,29"/>
+<area shape="rect" id="Node000006" href="$d5/d3b/classGameMakerGUI.html#a7161039330e8a8cc81dbd9a813d34038" title=" " alt="" coords="663,55,925,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="960,57,926,60,925,54,960,52"/>
+<area shape="rect" id="Node000003" href="$d5/d3b/classGameMakerGUI.html#a2cc6da97c0f4b45175ddc9683308866e" title=" " alt="" coords="397,31,615,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="661,32,615,36,615,31,661,27"/>
+<area shape="rect" id="Node000004" href="$d1/db6/classEngine.html#acde70aed0043e2e2091d0bb6cce8e3c1" title=" " alt="" coords="229,31,349,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,46,350,46,350,41,383,41"/>
+<area shape="rect" id="Node000005" href="$d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,31,181,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,46,181,46,181,41,215,41"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="649,58,615,55,615,50,649,53"/>
+</map>

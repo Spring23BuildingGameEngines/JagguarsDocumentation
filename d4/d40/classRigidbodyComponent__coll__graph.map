@@ -1,0 +1,14 @@
+<map id="RigidbodyComponent" name="RigidbodyComponent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="249,256,411,281"/>
+<area shape="rect" id="Node000002" href="$d9/d15/classIPhysicsComponent.html" title=" " alt="" coords="140,181,291,207"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,212,313,254,310,258,244,216"/>
+<area shape="rect" id="Node000003" href="$d8/d6b/classComponent.html" title=" " alt="" coords="5,5,103,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="48,44,42,81,44,100,51,117,70,139,95,157,122,170,150,179,148,184,120,175,92,161,67,143,46,120,39,101,37,81,42,44"/>
+<area shape="rect" id="Node000004" href="$d2/d0a/classTransformComponent.html" title=" " alt="" coords="61,93,223,119"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="77,38,132,91,128,95,74,42"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="158,129,177,156,202,179,199,183,173,159,154,132"/>
+<area shape="rect" id="Node000005" href="$dd/d40/structVec2D.html" title=" " alt="" coords="240,5,303,31"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="306,36,336,60,359,92,366,115,369,139,364,186,351,227,339,257,334,255,346,225,359,184,364,139,361,116,354,95,332,63,303,40"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="275,44,273,98,266,129,255,159,234,183,230,179,250,156,261,128,267,98,270,44"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="230,38,197,57,173,76,154,95,150,91,170,72,194,52,228,34"/>
+</map>

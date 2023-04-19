@@ -76,11 +76,15 @@ $(function() {
   <div class="headertitle"><div class="title">PhysicsEngine Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="../../d1/d20/PhysicsEngine_8hpp_source.html">PhysicsEngine.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fc9180ea453680df0b863fa157c5b92"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df5/classPhysicsEngine.html#a7fc9180ea453680df0b863fa157c5b92">PhysicsEngine</a> ()</td></tr>
 <tr class="separator:a7fc9180ea453680df0b863fa157c5b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f076ee99bbfdbc79ab2d27366d8476"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df5/classPhysicsEngine.html#ae5f076ee99bbfdbc79ab2d27366d8476">~PhysicsEngine</a> ()</td></tr>
+<tr class="separator:ae5f076ee99bbfdbc79ab2d27366d8476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa69a81964d980456a6ac48816d2f756"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df5/classPhysicsEngine.html#aaa69a81964d980456a6ac48816d2f756">AddComponent</a> (<a class="el" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a> *newComponent)</td></tr>
 <tr class="separator:aaa69a81964d980456a6ac48816d2f756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d283b6067980e42765340dea6eb62a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a">Update</a> ()</td></tr>
@@ -95,7 +99,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:add4a407cb22c67709b399c68c99b621e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">m_components</a></td></tr>
 <tr class="separator:add4a407cb22c67709b399c68c99b621e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A class to handle all collisions and gravity interactions between <a class="el" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponents </a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7fc9180ea453680df0b863fa157c5b92" name="a7fc9180ea453680df0b863fa157c5b92"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fc9180ea453680df0b863fa157c5b92">&#9670;&#160;</a></span>PhysicsEngine()</h2>
 
@@ -110,7 +116,25 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Default constructor and destructor </p>
+<p>Construct a new Physics <a class="el" href="../../d1/db6/classEngine.html">Engine</a> object </p>
+
+</div>
+</div>
+<a id="ae5f076ee99bbfdbc79ab2d27366d8476" name="ae5f076ee99bbfdbc79ab2d27366d8476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f076ee99bbfdbc79ab2d27366d8476">&#9670;&#160;</a></span>~PhysicsEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PhysicsEngine::~PhysicsEngine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Destroy the Physics <a class="el" href="../../d1/db6/classEngine.html">Engine</a> object </p>
 
 </div>
 </div>
@@ -130,7 +154,25 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Adds a new component to be handled by the engine </p>
+<p>Adds a new <a class="el" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a> to be handled by the <a class="el" href="../../db/df5/classPhysicsEngine.html">PhysicsEngine</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newComponent</td><td>a pointer to the added <a class="el" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/df5/classPhysicsEngine_aaa69a81964d980456a6ac48816d2f756_icgraph.png" border="0" usemap="#adb/df5/classPhysicsEngine_aaa69a81964d980456a6ac48816d2f756_icgraph" alt=""/></div>
+<map name="adb/df5/classPhysicsEngine_aaa69a81964d980456a6ac48816d2f756_icgraph" id="adb/df5/classPhysicsEngine_aaa69a81964d980456a6ac48816d2f756_icgraph">
+<area shape="rect" title=" " alt="" coords="456,13,679,38"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a2e3d93df96db6361330d3a41f7b5892b" title=" " alt="" coords="229,5,408,45"/>
+<area shape="poly" title=" " alt="" coords="442,28,408,28,408,23,442,23"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,13,181,38"/>
+<area shape="poly" title=" " alt="" coords="216,28,182,28,182,23,216,23"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -149,7 +191,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Changes gravity to the new value </p>
+<p>Change gravity to the new value.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newGravity</td><td>the new value for acceleration due to gravity </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -167,7 +215,44 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Updates all components, resolving any collisions by applying forces to rigidbodies TODO: scale by deltaTime: the Engine-calculated difference between update calls using SDL_GetTicks() </p>
+<p>Update all IPhysicsComponents. Resolve collisions between Components all at once. TODO: scale by deltaTime: the Engine-calculated difference between update calls using SDL_GetTicks() </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_cgraph.png" border="0" usemap="#adb/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_cgraph" alt=""/></div>
+<map name="adb/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_cgraph" id="adb/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_cgraph">
+<area shape="rect" title=" " alt="" coords="5,138,176,163"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#abb67c9f5741590c7ebcca1434175386a" title=" " alt="" coords="431,12,589,52"/>
+<area shape="poly" title=" " alt="" coords="98,136,117,110,145,78,181,46,223,22,271,9,322,3,371,4,417,9,416,14,371,9,322,9,272,14,225,27,184,51,149,82,121,113,102,139"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#a5a88a9979998bcfe46ec45d4a6c4966b" title=" " alt="" coords="224,37,383,77"/>
+<area shape="poly" title=" " alt="" coords="118,135,223,86,239,80,241,85,225,91,120,140"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#abfaa678eb1c7312e9bf098bc1473f794" title=" " alt="" coords="431,158,589,198"/>
+<area shape="poly" title=" " alt="" coords="176,153,417,169,417,175,176,159"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#aae80e0691898c61495f43a7bc2f0e494" title=" " alt="" coords="224,101,383,141"/>
+<area shape="poly" title=" " alt="" coords="176,136,210,131,211,136,177,141"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#a4136b164031d8fa821316e1664264392" title=" " alt="" coords="224,216,383,256"/>
+<area shape="poly" title=" " alt="" coords="124,161,241,208,239,213,122,165"/>
+<area shape="rect" href="../../d9/d15/classIPhysicsComponent.html#aaf37980fe6dea6de4d49156b3c4ce998" title=" " alt="" coords="224,280,383,320"/>
+<area shape="poly" title=" " alt="" coords="105,161,155,211,189,239,225,265,235,271,233,276,223,270,186,244,151,214,102,165"/>
+<area shape="rect" href="../../d2/d0a/classTransformComponent.html#a5452c308a26521441745d3edc1ab5d4d" title=" " alt="" coords="637,130,800,170"/>
+<area shape="poly" title=" " alt="" coords="589,165,623,160,624,166,590,170"/>
+<area shape="poly" title=" " alt="" coords="353,98,382,86,452,55,454,60,384,91,355,103"/>
+<area shape="poly" title=" " alt="" coords="377,138,425,152,423,157,375,144"/>
+<area shape="poly" title=" " alt="" coords="383,124,624,141,623,146,383,129"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../db/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_icgraph.png" border="0" usemap="#adb/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_icgraph" alt=""/></div>
+<map name="adb/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_icgraph" id="adb/df5/classPhysicsEngine_a30d283b6067980e42765340dea6eb62a_icgraph">
+<area shape="rect" title=" " alt="" coords="399,5,569,31"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#ac84eefe06226f430a2448306e6fd2579" title=" " alt="" coords="229,5,351,31"/>
+<area shape="poly" title=" " alt="" coords="385,21,351,21,351,15,385,15"/>
+<area shape="rect" href="../../d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,5,181,31"/>
+<area shape="poly" title=" " alt="" coords="216,21,181,21,181,15,216,15"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -214,7 +299,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The acceleration due to gravity in the game Note: This can change during runtime </p>
+<p>The acceleration due to gravity in the game. This can safely change during runtime </p>
 
 </div>
 </div>

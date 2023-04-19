@@ -7,6 +7,7 @@ var searchData=
   ['input_4',['Input',['../d1/db6/classEngine.html#a8420fafe78a3742a451fac2fcedef50c',1,'Engine::Input()'],['../d5/d3b/classGameMakerGUI.html#ae5d7cd973b4ae98b6bb53a780eb5065a',1,'GameMakerGUI::Input()']]],
   ['iphysicscomponent_5',['IPhysicsComponent',['../d9/d15/classIPhysicsComponent.html#ab4bee7d6211a8649c7089629eaccbb21',1,'IPhysicsComponent']]],
   ['iscolliding_6',['IsColliding',['../d9/d15/classIPhysicsComponent.html#aae80e0691898c61495f43a7bc2f0e494',1,'IPhysicsComponent']]],
-  ['iselastic_7',['IsElastic',['../d9/d15/classIPhysicsComponent.html#a4136b164031d8fa821316e1664264392',1,'IPhysicsComponent::IsElastic()'],['../de/d87/classRigidbodyComponent.html#adc67765c449d8cde1c9dcdd279b97194',1,'RigidbodyComponent::IsElastic()']]],
-  ['iskinematic_8',['IsKinematic',['../d9/d15/classIPhysicsComponent.html#aaf37980fe6dea6de4d49156b3c4ce998',1,'IPhysicsComponent::IsKinematic()'],['../de/d87/classRigidbodyComponent.html#a73b252b29fbb76a6354b0c56aebe36f9',1,'RigidbodyComponent::IsKinematic()']]]
+  ['iscript_7',['IScript',['../d2/d89/classIScript.html#aa99d1a0613f5f7efd52de33b69332db1',1,'IScript']]],
+  ['iselastic_8',['IsElastic',['../d9/d15/classIPhysicsComponent.html#a4136b164031d8fa821316e1664264392',1,'IPhysicsComponent::IsElastic()'],['../de/d87/classRigidbodyComponent.html#adc67765c449d8cde1c9dcdd279b97194',1,'RigidbodyComponent::IsElastic()']]],
+  ['iskinematic_9',['IsKinematic',['../d9/d15/classIPhysicsComponent.html#aaf37980fe6dea6de4d49156b3c4ce998',1,'IPhysicsComponent::IsKinematic()'],['../de/d87/classRigidbodyComponent.html#a73b252b29fbb76a6354b0c56aebe36f9',1,'RigidbodyComponent::IsKinematic()']]]
 ];

@@ -5,5 +5,6 @@ var searchData=
   ['renderclear_2',['RenderClear',['../d7/dea/classIGraphicsEngineRenderer.html#a33dc89efb652168680736dc4871df48e',1,'IGraphicsEngineRenderer::RenderClear()'],['../d1/d7f/classSDLGraphicsEngineRenderer.html#ae6edfc67a39076c0c12101ad85be4f6a',1,'SDLGraphicsEngineRenderer::RenderClear()']]],
   ['rendereditor_3',['RenderEditor',['../d5/d3b/classGameMakerGUI.html#a2cc6da97c0f4b45175ddc9683308866e',1,'GameMakerGUI']]],
   ['renderpresent_4',['RenderPresent',['../d7/dea/classIGraphicsEngineRenderer.html#aae42681e8163b9321b6b742c47365012',1,'IGraphicsEngineRenderer::RenderPresent()'],['../d1/d7f/classSDLGraphicsEngineRenderer.html#acddd7c456e4311d71fc1d43f29343d81',1,'SDLGraphicsEngineRenderer::RenderPresent()']]],
-  ['rigidbodycomponent_5',['RigidbodyComponent',['../de/d87/classRigidbodyComponent.html#a870828e81a3946f12bc09d49848072af',1,'RigidbodyComponent']]]
+  ['resourcemanager_5',['ResourceManager',['../de/d6b/classResourceManager.html#a3b32babd2e81909bbd90d7f2d566fadb',1,'ResourceManager']]],
+  ['rigidbodycomponent_6',['RigidbodyComponent',['../de/d87/classRigidbodyComponent.html#a870828e81a3946f12bc09d49848072af',1,'RigidbodyComponent']]]
 ];

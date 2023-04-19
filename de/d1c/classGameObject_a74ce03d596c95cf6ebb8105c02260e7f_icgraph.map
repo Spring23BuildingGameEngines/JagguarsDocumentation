@@ -1,0 +1,17 @@
+<map id="GameObject::GetName" name="GameObject::GetName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="961,55,1135,80"/>
+<area shape="rect" id="Node000002" href="$d5/d3b/classGameMakerGUI.html#a39546dd352c9c5d198f61e34011131b4" title=" " alt="" coords="663,5,913,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="967,55,855,33,856,28,968,49"/>
+<area shape="rect" id="Node000006" href="$d5/d3b/classGameMakerGUI.html#a234477cd3aefa75d38b00aa81c848525" title=" " alt="" coords="669,55,907,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="948,70,908,70,908,65,948,65"/>
+<area shape="rect" id="Node000007" href="$d5/d3b/classGameMakerGUI.html#ac6b9e94c057349726c94cbaea077ac07" title=" " alt="" coords="663,105,913,145"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="977,86,880,107,879,102,976,80"/>
+<area shape="rect" id="Node000003" href="$d5/d3b/classGameMakerGUI.html#a2cc6da97c0f4b45175ddc9683308866e" title=" " alt="" coords="397,55,615,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="702,36,580,57,579,52,701,30"/>
+<area shape="rect" id="Node000004" href="$d1/db6/classEngine.html#acde70aed0043e2e2091d0bb6cce8e3c1" title=" " alt="" coords="229,55,349,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="383,70,350,70,350,65,383,65"/>
+<area shape="rect" id="Node000005" href="$d1/db6/classEngine.html#a9ec9d3d7dc0f9e79032dd83801778eaf" title=" " alt="" coords="5,55,181,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="215,70,181,70,181,65,215,65"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="655,70,615,70,615,65,655,65"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="675,105,569,83,570,77,676,99"/>
+</map>

@@ -83,32 +83,34 @@ $(function() {
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;IPhysicsComponent.hpp&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../db/df5/classPhysicsEngine.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/df5/classPhysicsEngine.html">PhysicsEngine</a> {</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#a7fc9180ea453680df0b863fa157c5b92">PhysicsEngine</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_class" href="../../db/df5/classPhysicsEngine.html">~PhysicsEngine</a>();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#aaa69a81964d980456a6ac48816d2f756">AddComponent</a>(<a class="code hl_class" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a>* newComponent);</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a">Update</a>();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#a65b58126356b154d20e3081ccb6a402e">SetGravity</a>(<span class="keywordtype">float</span> newGravity);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="../../db/df5/classPhysicsEngine.html#aac07745baaaa47e949089444ecd41247">   37</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../db/df5/classPhysicsEngine.html#aac07745baaaa47e949089444ecd41247">m_gravity</a> = 2.0f;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">   42</a></span>    std::vector&lt;IPhysicsComponent*&gt; <a class="code hl_variable" href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">m_components</a>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="../../db/df5/classPhysicsEngine.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="../../db/df5/classPhysicsEngine.html">PhysicsEngine</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#a7fc9180ea453680df0b863fa157c5b92">PhysicsEngine</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#ae5f076ee99bbfdbc79ab2d27366d8476">~PhysicsEngine</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#aaa69a81964d980456a6ac48816d2f756">AddComponent</a>(<a class="code hl_class" href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a>* newComponent);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a">Update</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../db/df5/classPhysicsEngine.html#a65b58126356b154d20e3081ccb6a402e">SetGravity</a>(<span class="keywordtype">float</span> newGravity);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="../../db/df5/classPhysicsEngine.html#aac07745baaaa47e949089444ecd41247">   49</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="../../db/df5/classPhysicsEngine.html#aac07745baaaa47e949089444ecd41247">m_gravity</a> = 2.0f;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">   54</a></span>    std::vector&lt;IPhysicsComponent*&gt; <a class="code hl_variable" href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">m_components</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aclassIPhysicsComponent_html"><div class="ttname"><a href="../../d9/d15/classIPhysicsComponent.html">IPhysicsComponent</a></div><div class="ttdef"><b>Definition:</b> IPhysicsComponent.hpp:11</div></div>
-<div class="ttc" id="aclassPhysicsEngine_html"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html">PhysicsEngine</a></div><div class="ttdef"><b>Definition:</b> PhysicsEngine.hpp:8</div></div>
+<div class="ttc" id="aclassPhysicsEngine_html"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html">PhysicsEngine</a></div><div class="ttdef"><b>Definition:</b> PhysicsEngine.hpp:11</div></div>
 <div class="ttc" id="aclassPhysicsEngine_html_a30d283b6067980e42765340dea6eb62a"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#a30d283b6067980e42765340dea6eb62a">PhysicsEngine::Update</a></div><div class="ttdeci">void Update()</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.cpp:17</div></div>
 <div class="ttc" id="aclassPhysicsEngine_html_a65b58126356b154d20e3081ccb6a402e"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#a65b58126356b154d20e3081ccb6a402e">PhysicsEngine::SetGravity</a></div><div class="ttdeci">void SetGravity(float newGravity)</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.cpp:87</div></div>
 <div class="ttc" id="aclassPhysicsEngine_html_a7fc9180ea453680df0b863fa157c5b92"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#a7fc9180ea453680df0b863fa157c5b92">PhysicsEngine::PhysicsEngine</a></div><div class="ttdeci">PhysicsEngine()</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.cpp:8</div></div>
 <div class="ttc" id="aclassPhysicsEngine_html_aaa69a81964d980456a6ac48816d2f756"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#aaa69a81964d980456a6ac48816d2f756">PhysicsEngine::AddComponent</a></div><div class="ttdeci">void AddComponent(IPhysicsComponent *newComponent)</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.cpp:11</div></div>
-<div class="ttc" id="aclassPhysicsEngine_html_aac07745baaaa47e949089444ecd41247"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#aac07745baaaa47e949089444ecd41247">PhysicsEngine::m_gravity</a></div><div class="ttdeci">float m_gravity</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.hpp:37</div></div>
-<div class="ttc" id="aclassPhysicsEngine_html_add4a407cb22c67709b399c68c99b621e"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">PhysicsEngine::m_components</a></div><div class="ttdeci">std::vector&lt; IPhysicsComponent * &gt; m_components</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.hpp:42</div></div>
+<div class="ttc" id="aclassPhysicsEngine_html_aac07745baaaa47e949089444ecd41247"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#aac07745baaaa47e949089444ecd41247">PhysicsEngine::m_gravity</a></div><div class="ttdeci">float m_gravity</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.hpp:49</div></div>
+<div class="ttc" id="aclassPhysicsEngine_html_add4a407cb22c67709b399c68c99b621e"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#add4a407cb22c67709b399c68c99b621e">PhysicsEngine::m_components</a></div><div class="ttdeci">std::vector&lt; IPhysicsComponent * &gt; m_components</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.hpp:54</div></div>
+<div class="ttc" id="aclassPhysicsEngine_html_ae5f076ee99bbfdbc79ab2d27366d8476"><div class="ttname"><a href="../../db/df5/classPhysicsEngine.html#ae5f076ee99bbfdbc79ab2d27366d8476">PhysicsEngine::~PhysicsEngine</a></div><div class="ttdeci">~PhysicsEngine()</div><div class="ttdef"><b>Definition:</b> PhysicsEngine.cpp:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
