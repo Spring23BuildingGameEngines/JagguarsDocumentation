@@ -84,7 +84,7 @@ $(function() {
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// Forward references of each of the structs</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">struct </span><a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a>;</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span><a class="code hl_struct" href="../../d9/d86/structMatrix3D.html">Matrix3D</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span><a class="code hl_struct" href="../d86/structMatrix3D.html">Matrix3D</a>;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Vec2D performs vector operations with 3-dimensions</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// The purpose of this class is primarily for 3D graphics</span></div>
@@ -332,13 +332,13 @@ $(function() {
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>}</div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span> </div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="comment">// Matrix 3D represents 3x3 matrices in Math</span></div>
-<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="../../d9/d86/structMatrix3D.html">  257</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../../d9/d86/structMatrix3D.html">Matrix3D</a> {</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno"><a class="line" href="../d86/structMatrix3D.html">  257</a></span><span class="keyword">struct </span><a class="code hl_struct" href="../d86/structMatrix3D.html">Matrix3D</a> {</div>
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>    <span class="keywordtype">float</span> n[3][3]; <span class="comment">// Store each value of the matrix</span></div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <span class="comment">// Initializes to a identity matrix by default</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <a class="code hl_struct" href="../../d9/d86/structMatrix3D.html">Matrix3D</a>() {</div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>    <a class="code hl_struct" href="../d86/structMatrix3D.html">Matrix3D</a>() {</div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        n[0][0] = 1;</div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        n[0][1] = 0;</div>
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        n[0][2] = 0;</div>
@@ -352,7 +352,7 @@ $(function() {
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span> </div>
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>    <span class="comment">// TODO: Row or column major order you decide!</span></div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>    <span class="comment">// Matrix constructor with 9 scalar values.</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <a class="code hl_struct" href="../../d9/d86/structMatrix3D.html">Matrix3D</a>(<span class="keywordtype">float</span> n00, <span class="keywordtype">float</span> n01, <span class="keywordtype">float</span> n02,</div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>    <a class="code hl_struct" href="../d86/structMatrix3D.html">Matrix3D</a>(<span class="keywordtype">float</span> n00, <span class="keywordtype">float</span> n01, <span class="keywordtype">float</span> n02,</div>
 <div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>             <span class="keywordtype">float</span> n10, <span class="keywordtype">float</span> n11, <span class="keywordtype">float</span> n12,</div>
 <div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>             <span class="keywordtype">float</span> n20, <span class="keywordtype">float</span> n21, <span class="keywordtype">float</span> n22) {</div>
 <div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
@@ -368,7 +368,7 @@ $(function() {
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>    }</div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
 <div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="comment">// Matrix constructor from three vectors.</span></div>
-<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <a class="code hl_struct" href="../../d9/d86/structMatrix3D.html">Matrix3D</a>(<span class="keyword">const</span> <a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a> &amp;a, <span class="keyword">const</span> <a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a> &amp;b, <span class="keyword">const</span> <a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a> &amp;c) {</div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>    <a class="code hl_struct" href="../d86/structMatrix3D.html">Matrix3D</a>(<span class="keyword">const</span> <a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a> &amp;a, <span class="keyword">const</span> <a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a> &amp;b, <span class="keyword">const</span> <a class="code hl_struct" href="../../dd/d40/structVec2D.html">Vec2D</a> &amp;c) {</div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>        n[0][0] = a.x;</div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span>        n[0][1] = a.y;</div>
 <div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>        n[0][2] = a.w;</div>
@@ -477,7 +477,7 @@ $(function() {
 <div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span><span class="comment">}</span></div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span><span class="comment">*/</span></div>
 <div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="astructMatrix3D_html"><div class="ttname"><a href="../../d9/d86/structMatrix3D.html">Matrix3D</a></div><div class="ttdef"><b>Definition:</b> TinyMath.hpp:257</div></div>
+<div class="ttc" id="astructMatrix3D_html"><div class="ttname"><a href="../d86/structMatrix3D.html">Matrix3D</a></div><div class="ttdef"><b>Definition:</b> TinyMath.hpp:257</div></div>
 <div class="ttc" id="astructVec2D_html"><div class="ttname"><a href="../../dd/d40/structVec2D.html">Vec2D</a></div><div class="ttdef"><b>Definition:</b> TinyMath.hpp:14</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
